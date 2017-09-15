@@ -1,0 +1,8 @@
+body.home-page {
+   background-image: url("../images/home.jpg");
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+.hide {
+    display: none;
+}

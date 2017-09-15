@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Node Js Game</title>
+     <link rel="stylesheet" href="css/styles.css">
+     <script src="js/jquery.min.js"></script>
+  </head>
+  <body class="home-page">
+    <div>Cards</div>
+    <div class="messages"></div>
+    <div id="username-prompt">
+      <form>
+        <input type"text" id="username" name="username">
+        <button id="set-username" type="button">Set Name</button>
+      </form>
+    </div>
+    <div id="game-button">
+        <button id="host-game" type="button">Host New Game</button>
+        <div id="join-game">
+          <input type="text" name="game-id" id="game-id" />
+          <button id="join-game-button" type="button">Host New Game</button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/public.js"></script>
+  </body>
+</html>
+
